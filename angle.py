@@ -26,7 +26,7 @@ def construct_daytime(start, end, freq):
     day_no = pd.date_range(start = start, end = end, freq= freq, tz='UTC').dayofyear.tolist()
     return t_h, day_no
 
-def input_environment():
+def input_environment(): # change the parameters here!!!
     lat = 49.515893362462997
     lon = 5.9417455789940004
     slope = 2.39
